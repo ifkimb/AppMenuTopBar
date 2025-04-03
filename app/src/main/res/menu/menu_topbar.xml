@@ -1,4 +1,36 @@
 <?xml version="1.0" encoding="utf-8"?>
-<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/mArquivo"
+        android:icon="@drawable/baseline_insert_arquivo"
+        android:title="@string/arquivo"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/mAlterar"
+        android:icon="@drawable/baseline_mode_alterar"
+        android:title="@string/alterar"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/mExcluir"
+        android:icon="@drawable/baseline_delete"
+        android:title="@string/excluir"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/mPesquisar"
+        android:icon="@drawable/baseline_pesquisar"
+        android:title="@string/pesquisar"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/mSair"
+        android:icon="@drawable/baseline_sair"
+        android:title="@string/sair"
+        app:showAsAction="ifRoom" />
+
 
 </menu>

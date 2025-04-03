@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">MyApp</string>
+    <string name="sair">Sair</string>
+    <string name="arquivo">Arquivo</string>
+    <string name="alterar">Alterar</string>
+    <string name="excluir">Excluir</string>
+    <string name="pesquisar">Pesquisar</string>
 </resources>
