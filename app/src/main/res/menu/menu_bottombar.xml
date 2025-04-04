@@ -1,6 +1,35 @@
 <?xml version="1.0" encoding="utf-8"?>
-<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
 
+    <item
+        android:id="@+id/mCompartilhar"
+        android:icon="@drawable/baseline_comp"
+        android:title="@string/compartilhar"
+        app:showAsAction="ifRoom" />
 
+    <item
+        android:id="@+id/mFavoritar"
+        android:icon="@drawable/baseline_favorite"
+        android:title="@string/favoritar"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/mStatus"
+        android:icon="@drawable/baseline_status"
+        android:title="@string/status"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/mConversar"
+        android:icon="@drawable/baseline_conversar"
+        android:title="@string/conversar"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/mDownloads"
+        android:icon="@drawable/baseline_download"
+        android:title="@string/downloads"
+        app:showAsAction="ifRoom" />
 
 </menu>
