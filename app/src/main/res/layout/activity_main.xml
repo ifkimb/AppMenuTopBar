@@ -10,11 +10,14 @@
     <com.google.android.material.appbar.AppBarLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
-       <com.google.android.material.appbar.MaterialToolbar
-           android:layout_width="match_parent"
-           android:layout_height="wrap_content"
-           app:menu="@menu/menu_topbar"
-           />
+
+        <com.google.android.material.appbar.MaterialToolbar
+            android:id="@+id/idTopBar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:menu="@menu/menu_topbar"
+            app:title="TopBar"
+            app:navigationIcon="@drawable/baseline_seta" />
 
 
     </com.google.android.material.appbar.AppBarLayout>
